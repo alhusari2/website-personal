@@ -1,9 +1,9 @@
 export const personalInfo = {
   name: "Dian Alhusari",
-  title: "AI Engineer & Data Scientist",
+  title: "AI Engineer",
   greeting: "Hello, I'm",
   description:
-    "Mathematics graduate passionate about leveraging AI to drive measurable impact. Experienced in LLMs, Computer Vision, and end-to-end data workflows.",
+    "AI Engineer specializing in building and deploying production-grade AI systems. Experienced in Agentic AI, LLMs (LangGraph, LangChain), and scalable search infrastructure for healthcare and enterprise.",
   photo: import.meta.env.BASE_URL + "profile.jpg",
   location: "South Jakarta, Indonesia",
   email: "alhusari2@gmail.com",
@@ -13,9 +13,9 @@ export const personalInfo = {
 };
 
 export const aboutText = [
-  'Mathematics graduate with a solid foundation in <strong>Data Science</strong> and <strong>Artificial Intelligence</strong>, experienced in developing and deploying AI-driven systems across healthcare and enterprise domains.',
-  'Proven ability in applying <strong>LLMs</strong> and tools such as <strong>LangGraph</strong> to build scalable solutions including clinical incident detection systems, product taxonomy warehouses, and intelligent search engines.',
-  'Skilled in <strong>Computer Vision</strong>, automation, and end-to-end data workflows. Adept in research and cross-functional collaboration, with a strong passion for leveraging AI to drive measurable impact.',
+  'AI Engineer with hands-on experience building and deploying <strong>production-grade AI systems</strong> across healthcare and enterprise domains. Currently leading AI search infrastructure at Siloam Hospital Group.',
+  'Specialized in <strong>Agentic AI</strong>, <strong>LLMs</strong>, and <strong>LangGraph</strong> to architect scalable solutions — from clinical incident detection systems and product taxonomy warehouses to intelligent search engines with 60% faster response times.',
+  'Strong foundation in Mathematics (B.S.) with expertise in <strong>Computer Vision</strong>, search engine optimization, and end-to-end ML pipelines. Passionate about building AI that delivers real, measurable impact in production.',
 ];
 
 export const stats = [
@@ -117,25 +117,37 @@ export const education = [
 
 export const skills = [
   {
-    category: "Programming Languages",
-    icon: "fa-code",
-    tags: [
-      { name: "Python (Advanced)", primary: true },
-      { name: "C++" },
-      { name: "SQL" },
-      { name: "R" },
-    ],
-  },
-  {
     category: "AI / ML / GenAI",
     icon: "fa-brain",
     tags: [
       { name: "Agentic AI", primary: true },
       { name: "LangChain", primary: true },
       { name: "LangGraph", primary: true },
+      { name: "MCP (Model Context Protocol)", primary: true },
       { name: "YOLOv5" },
       { name: "RNN" },
       { name: "Time Series" },
+    ],
+  },
+  {
+    category: "Programming & Frameworks",
+    icon: "fa-code",
+    tags: [
+      { name: "Python (Advanced)", primary: true },
+      { name: "FastAPI", primary: true },
+      { name: "C++" },
+      { name: "SQL" },
+      { name: "R" },
+    ],
+  },
+  {
+    category: "Deployment & Infra",
+    icon: "fa-server",
+    tags: [
+      { name: "Docker" },
+      { name: "Typesense (Search Engine)" },
+      { name: "API Development" },
+      { name: "Apache Airflow" },
     ],
   },
   {
@@ -145,22 +157,17 @@ export const skills = [
       { name: "MongoDB" },
       { name: "ClickHouse (OLAP)" },
       { name: "Redis" },
-      { name: "ETL" },
+      { name: "ETL Pipelines" },
     ],
   },
   {
-    category: "Deployment & Infra",
-    icon: "fa-server",
-    tags: [
-      { name: "Docker" },
-      { name: "Typesense" },
-      { name: "API Development" },
-    ],
-  },
-  {
-    category: "Data Visualization",
+    category: "Data & Visualization",
     icon: "fa-chart-bar",
-    tags: [{ name: "Tableau" }, { name: "Data Viz Concepts" }],
+    tags: [
+      { name: "Tableau" },
+      { name: "Data Analysis" },
+      { name: "Jupyter Notebooks" },
+    ],
   },
   {
     category: "Certifications",

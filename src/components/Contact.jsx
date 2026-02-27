@@ -7,8 +7,8 @@ export default function Contact() {
       <div className="container">
         <h2 className="section-title">Get In Touch</h2>
         <p className="contact-subtitle">
-          I'm actively seeking opportunities as a Data Scientist or AI
-          Engineer. Feel free to reach out!
+          Open to AI Engineer opportunities. Let's build something impactful
+          together.
         </p>
         <div className="contact-grid">
           <a href={`mailto:${personalInfo.email}`} className="contact-card">
