@@ -4,7 +4,7 @@ export const personalInfo = {
   greeting: "Hello, I'm",
   description:
     "Mathematics graduate passionate about leveraging AI to drive measurable impact. Experienced in LLMs, Computer Vision, and end-to-end data workflows.",
-  photo: "/profile.jpg",
+  photo: import.meta.env.BASE_URL + "profile.jpg",
   location: "South Jakarta, Indonesia",
   email: "alhusari2@gmail.com",
   phone: "+62 853-1911-6756",
