@@ -10,7 +10,7 @@
 }
 
 .navbar.scrolled {
-  background: rgba(10, 10, 26, 0.95);
+  background: rgba(26, 22, 18, 0.95);
   backdrop-filter: blur(20px);
   padding: 12px 0;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
@@ -28,7 +28,7 @@
 .nav-logo {
   font-size: 1.5rem;
   font-weight: 800;
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  background: linear-gradient(135deg, var(--primary), var(--accent));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -56,7 +56,7 @@
 .nav-link:hover,
 .nav-link.active {
   color: var(--text-primary);
-  background: rgba(108, 99, 255, 0.15);
+  background: rgba(176, 124, 75, 0.15);
 }
 
 .nav-toggle {
@@ -105,7 +105,7 @@
     right: -100%;
     width: 280px;
     height: 100vh;
-    background: rgba(10, 10, 26, 0.98);
+    background: rgba(26, 22, 18, 0.98);
     backdrop-filter: blur(20px);
     flex-direction: column;
     padding: 80px 32px 32px;

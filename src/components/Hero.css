@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  background: linear-gradient(135deg, #0A0A1A 0%, #1A0A3E 50%, #0A1A3E 100%);
+  background: linear-gradient(135deg, #1A1612 0%, #2C2118 50%, #1E1A14 100%);
   padding: 120px 24px 80px;
   overflow: hidden;
 }
@@ -21,7 +21,7 @@
   right: -30%;
   width: 800px;
   height: 800px;
-  background: radial-gradient(circle, rgba(108, 99, 255, 0.15) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(176, 124, 75, 0.12) 0%, transparent 70%);
   animation: float 8s ease-in-out infinite;
 }
 
@@ -30,7 +30,7 @@
   left: -20%;
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(0, 210, 255, 0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(163, 177, 138, 0.1) 0%, transparent 70%);
   animation: float 10s ease-in-out infinite reverse;
 }
 
@@ -58,9 +58,9 @@
   height: 280px;
   border-radius: 50%;
   overflow: hidden;
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  background: linear-gradient(135deg, var(--primary), var(--accent));
   padding: 4px;
-  box-shadow: 0 0 20px rgba(108, 99, 255, 0.3);
+  box-shadow: 0 0 20px rgba(176, 124, 75, 0.3);
   animation: glow 3s ease-in-out infinite alternate;
 }
 
@@ -72,8 +72,8 @@
 }
 
 @keyframes glow {
-  0% { box-shadow: 0 0 20px rgba(108, 99, 255, 0.3); }
-  100% { box-shadow: 0 0 40px rgba(108, 99, 255, 0.6), 0 0 80px rgba(0, 210, 255, 0.2); }
+  0% { box-shadow: 0 0 20px rgba(176, 124, 75, 0.3); }
+  100% { box-shadow: 0 0 40px rgba(176, 124, 75, 0.5), 0 0 80px rgba(163, 177, 138, 0.2); }
 }
 
 .hero-text {
@@ -94,7 +94,7 @@
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 12px;
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  background: linear-gradient(135deg, var(--primary), var(--accent));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -136,14 +136,14 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  background: linear-gradient(135deg, var(--primary), var(--accent));
   color: white;
-  box-shadow: 0 4px 20px rgba(108, 99, 255, 0.4);
+  box-shadow: 0 4px 20px rgba(176, 124, 75, 0.4);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(108, 99, 255, 0.6);
+  box-shadow: 0 8px 30px rgba(176, 124, 75, 0.6);
 }
 
 .btn-outline {
@@ -154,7 +154,7 @@
 
 .btn-outline:hover {
   border-color: var(--primary);
-  background: rgba(108, 99, 255, 0.1);
+  background: rgba(176, 124, 75, 0.1);
   transform: translateY(-2px);
 }
 
@@ -179,7 +179,7 @@
 .hero-socials a:hover {
   border-color: var(--primary);
   color: var(--primary);
-  background: rgba(108, 99, 255, 0.1);
+  background: rgba(176, 124, 75, 0.1);
   transform: translateY(-3px);
 }
 
