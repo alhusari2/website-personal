@@ -7,18 +7,20 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 24px;
 }
 
 .section-title {
-  font-size: 2.2rem;
-  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 600;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 56px;
   position: relative;
   padding-bottom: 16px;
+  color: var(--text-primary);
 }
 
 .section-title::after {
@@ -27,15 +29,14 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 60px;
-  height: 4px;
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  border-radius: 2px;
+  width: 40px;
+  height: 2px;
+  background: var(--primary);
 }
 
 .about-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.2fr 1fr;
   gap: 60px;
   align-items: start;
 }
@@ -43,46 +44,45 @@
 .about-text p {
   color: var(--text-secondary);
   margin-bottom: 16px;
-  font-size: 1.05rem;
+  font-size: 1rem;
+  line-height: 1.8;
 }
 
 .about-text strong {
-  color: var(--primary-light);
+  color: var(--primary);
+  font-weight: 600;
 }
 
 .about-stats {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 16px;
 }
 
 .stat-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 28px;
+  padding: 24px;
   text-align: center;
   transition: var(--transition);
 }
 
 .stat-card:hover {
-  transform: translateY(-4px);
-  border-color: var(--primary);
-  box-shadow: 0 0 20px rgba(176, 124, 75, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
 }
 
 .stat-number {
-  font-size: 2.2rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary);
   margin-bottom: 4px;
 }
 
 .stat-label {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -94,7 +94,7 @@
   }
 
   .section-title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-bottom: 40px;
   }
 
@@ -112,6 +112,6 @@
   }
 
   .stat-number {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 }

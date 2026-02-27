@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 :root {
-  /* Earth Tone Palette */
-  --primary: #B07C4B;
-  --primary-dark: #8B5E34;
-  --primary-light: #C99A6B;
-  --secondary: #A3B18A;
-  --accent: #DDA15E;
-  --bg-dark: #2B2118;
-  --bg-section: #342A20;
-  --bg-card: #3E3228;
-  --bg-card-hover: #4A3E32;
-  --text-primary: #FAF0E6;
-  --text-secondary: #D4C4B0;
-  --text-muted: #9C8D7D;
-  --border: #4E4238;
+  /* Refined Earth Tone - Warm & Elegant */
+  --primary: #8B6914;
+  --primary-dark: #6B4F0E;
+  --primary-light: #B8942A;
+  --secondary: #5C7A56;
+  --accent: #C4A265;
+  --bg-dark: #F5F0EB;
+  --bg-section: #EDE7E0;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #FAFAFA;
+  --text-primary: #2C2420;
+  --text-secondary: #5A4E44;
+  --text-muted: #8A7E74;
+  --border: #DDD5CC;
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  --radius: 16px;
+  --radius: 12px;
   --radius-sm: 8px;
 }
 
@@ -57,7 +57,7 @@ img {
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -65,15 +65,15 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--primary);
-  border-radius: 4px;
+  background: var(--border);
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--primary-dark);
+  background: var(--text-muted);
 }
 
 ::selection {
-  background: rgba(176, 124, 75, 0.3);
+  background: rgba(139, 105, 20, 0.15);
   color: var(--text-primary);
 }
