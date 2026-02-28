@@ -1,0 +1,45 @@
+model_list:
+  - model_name: gemini-2.5-flash
+    litellm_params:
+      model: openai/gemini-2.5-flash
+      api_base: https://uat-ai-gateway.siloamhospitals.com/v1
+      api_key: sk-f6RQ1JazPiAFTNHe0np3eg
+
+  - model_name: Gemini-3-Flash-Preview
+    litellm_params:
+      model: openai/Gemini-3-Flash-Preview
+      api_base: https://uat-ai-gateway.siloamhospitals.com/v1
+      api_key: sk-f6RQ1JazPiAFTNHe0np3eg
+
+  - model_name: Claude-4.5-Opus
+    litellm_params:
+      model: openai/Claude-4.5-Opus
+      api_base: https://uat-ai-gateway.siloamhospitals.com/v1
+      api_key: sk-f6RQ1JazPiAFTNHe0np3eg
+
+  - model_name: Claude-4.6-Opus
+    litellm_params:
+      model: openai/Claude-4.6-Opus
+      api_base: https://uat-ai-gateway.siloamhospitals.com/v1
+      api_key: sk-f6RQ1JazPiAFTNHe0np3eg
+
+  - model_name: gemini-2.5-pro
+    litellm_params:
+      model: openai/gemini-2.5-pro
+      api_base: https://uat-ai-gateway.siloamhospitals.com/v1
+      api_key: sk-f6RQ1JazPiAFTNHe0np3eg
+
+  - model_name: Gemini-3-Pro-Preview
+    litellm_params:
+      model: openai/Gemini-3-Pro-Preview
+      api_base: https://uat-ai-gateway.siloamhospitals.com/v1
+      api_key: sk-f6RQ1JazPiAFTNHe0np3eg
+
+  - model_name: Claude-Sonnet-4.6
+    litellm_params:
+      model: openai/Claude-Sonnet-4.6
+      api_base: https://uat-ai-gateway.siloamhospitals.com/v1
+      api_key: sk-f6RQ1JazPiAFTNHe0np3eg
+
+general_settings:
+  master_key: sk-local-proxy-key-12345
