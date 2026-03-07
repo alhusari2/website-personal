@@ -37,14 +37,6 @@ export default function Hero() {
             <a href={`mailto:${personalInfo.email}`} aria-label="Email">
               <i className="fas fa-envelope"></i>
             </a>
-            <a
-              href={personalInfo.whatsapp}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="WhatsApp"
-            >
-              <i className="fab fa-whatsapp"></i>
-            </a>
           </div>
         </div>
       </div>

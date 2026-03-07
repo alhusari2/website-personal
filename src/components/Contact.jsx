@@ -17,17 +17,6 @@ export default function Contact() {
             <p>{personalInfo.email}</p>
           </a>
           <a
-            href={personalInfo.whatsapp}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="contact-card"
-            aria-label="Open WhatsApp"
-          >
-            <i className="fab fa-whatsapp" aria-hidden="true"></i>
-            <h3>WhatsApp</h3>
-            <p>{personalInfo.phone}</p>
-          </a>
-          <a
             href={personalInfo.linkedin}
             target="_blank"
             rel="noopener noreferrer"
