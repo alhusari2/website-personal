@@ -8,8 +8,8 @@ export default function Skills() {
         <h2 className="section-title">Technical Skills</h2>
         <div className="skills-grid">
           {skills.map((skill, i) => (
-            <div className="skill-category" key={i}>
-              <div className="skill-icon">
+            <div className="skill-category" key={i} aria-label={skill.category}>
+              <div className="skill-icon" aria-hidden="true">
                 <i className={`fas ${skill.icon}`}></i>
               </div>
               <h3>{skill.category}</h3>

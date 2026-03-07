@@ -6,9 +6,9 @@ export default function Experience() {
     <section className="section section-alt" id="experience">
       <div className="container">
         <h2 className="section-title">Experience</h2>
-        <div className="timeline">
+        <div className="timeline" role="list" aria-label="Work experience timeline">
           {experiences.map((exp, i) => (
-            <div className="timeline-item" key={i}>
+            <div className="timeline-item" key={i} role="listitem">
               <div className="timeline-marker"></div>
               <div className="timeline-content">
                 <div className="timeline-header">

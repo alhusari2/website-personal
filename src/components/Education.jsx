@@ -8,8 +8,8 @@ export default function Education() {
         <h2 className="section-title">Education</h2>
         <div className="education-grid">
           {education.map((edu, i) => (
-            <div className="edu-card" key={i}>
-              <div className="edu-icon">
+            <div className="edu-card" key={i} aria-label={edu.institution}>
+              <div className="edu-icon" aria-hidden="true">
                 <i className={`fas ${edu.icon}`}></i>
               </div>
               <h3>{edu.institution}</h3>
@@ -17,7 +17,7 @@ export default function Education() {
               <p className="edu-date">{edu.date}</p>
               {edu.location && (
                 <p className="edu-location">
-                  <i className="fas fa-map-marker-alt"></i> {edu.location}
+                  <i className="fas fa-map-marker-alt" aria-hidden="true"></i> {edu.location}
                 </p>
               )}
               {edu.sponsor && <p className="edu-sponsor">{edu.sponsor}</p>}

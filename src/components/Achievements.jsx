@@ -8,8 +8,8 @@ export default function Achievements() {
         <h2 className="section-title">Achievements</h2>
         <div className="achievements-grid">
           {achievements.map((item, i) => (
-            <div className="achievement-card" key={i}>
-              <div className="achievement-icon">
+            <div className="achievement-card" key={i} aria-label={item.title}>
+              <div className="achievement-icon" aria-hidden="true">
                 <i className={`fas ${item.icon}`}></i>
               </div>
               <h3>{item.title}</h3>

@@ -11,8 +11,8 @@ export default function Contact() {
           together.
         </p>
         <div className="contact-grid">
-          <a href={`mailto:${personalInfo.email}`} className="contact-card">
-            <i className="fas fa-envelope"></i>
+          <a href={`mailto:${personalInfo.email}`} className="contact-card" aria-label="Send email">
+            <i className="fas fa-envelope" aria-hidden="true"></i>
             <h3>Email</h3>
             <p>{personalInfo.email}</p>
           </a>
@@ -21,8 +21,9 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
             className="contact-card"
+            aria-label="Open WhatsApp"
           >
-            <i className="fab fa-whatsapp"></i>
+            <i className="fab fa-whatsapp" aria-hidden="true"></i>
             <h3>WhatsApp</h3>
             <p>{personalInfo.phone}</p>
           </a>
@@ -31,13 +32,14 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
             className="contact-card"
+            aria-label="Open LinkedIn profile"
           >
-            <i className="fab fa-linkedin-in"></i>
+            <i className="fab fa-linkedin-in" aria-hidden="true"></i>
             <h3>LinkedIn</h3>
             <p>dianalhusari</p>
           </a>
-          <div className="contact-card">
-            <i className="fas fa-map-marker-alt"></i>
+          <div className="contact-card" aria-label="Location">
+            <i className="fas fa-map-marker-alt" aria-hidden="true"></i>
             <h3>Location</h3>
             <p>{personalInfo.location}</p>
           </div>

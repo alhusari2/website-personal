@@ -46,6 +46,12 @@ a {
   color: inherit;
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
 ul {
   list-style: none;
 }
@@ -76,4 +82,22 @@ img {
 ::selection {
   background: rgba(139, 105, 20, 0.15);
   color: var(--text-primary);
+}
+
+/* Skip Link for Accessibility */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: var(--primary);
+  color: white;
+  padding: 8px 16px;
+  z-index: 10000;
+  transition: top 0.3s;
+  clip: rect(0, 0, 0, 0);
+}
+
+.skip-link:focus {
+  top: 0;
+  clip: auto;
 }
