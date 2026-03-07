@@ -39,7 +39,7 @@ export const experiences = [
       "Implemented Typesense search engine, achieving <strong>60% improvement</strong> in response time",
       "Led AI Search Services optimization solving <strong>>95% of pre-production search issues</strong>",
       "Mentored and onboarded <strong>10+ new AI Engineers</strong>",
-      "Functioned as AI Search Team Lead (4 members)",
+      "Functioned as AI Search Team Lead (5 members + 2 interns)",
       "Implemented Model Context Protocol (MCP) for AI model tool integration",
     ],
   },
