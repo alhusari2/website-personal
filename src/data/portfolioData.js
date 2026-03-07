@@ -20,7 +20,7 @@ export const aboutText = [
 
 export const stats = [
   { number: "2+", label: "Years Experience" },
-  { number: "7+", label: "Engineers Mentored" },
+  { number: "10+", label: "Engineers Mentored" },
   { number: "95%", label: "Search Issues Solved" },
   { number: "60%", label: "Response Time Improved" },
 ];
@@ -38,7 +38,7 @@ export const experiences = [
       "Built and deployed product taxonomy warehouse, reducing manual categorization time",
       "Implemented Typesense search engine, achieving <strong>60% improvement</strong> in response time",
       "Led AI Search Services optimization solving <strong>>95% of pre-production search issues</strong>",
-      "Mentored and onboarded <strong>7 new AI Engineers</strong>",
+      "Mentored and onboarded <strong>10+ new AI Engineers</strong>",
       "Functioned as AI Search Team Lead (4 members)",
       "Implemented Model Context Protocol (MCP) for AI model tool integration",
     ],
